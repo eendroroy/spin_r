@@ -1,8 +1,12 @@
 # SpinR
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/spin_r`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![GitHub tag](https://img.shields.io/github/tag/eendroroy/spin_r.svg)](https://github.com/eendroroy/spin_r)
+[![Gem Version](https://badge.fury.io/rb/spin_r.svg)](https://rubygems.org/gems/spin_r)
+[![Downloads](https://img.shields.io/gem/dt/spin_r.svg)](https://rubygems.org/gems/spin_r)
+[![Contributors](https://img.shields.io/github/contributors/eendroroy/spin_r.svg)](CONTRIBUTORS.md)
 
-TODO: Delete this and the text above, and describe your gem
+
+Show any time consuming process's output with a spinner.
 
 ## Installation
 
@@ -22,7 +26,32 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+SpinR.spin do
+  sleep 4
+  puts 'You spin my head right round!'
+end
+```
+
+Define spinner style:
+
+```ruby
+SpinR.spin SpinR::Spinners::TRIANGLE do
+  sleep 4
+  puts 'You spin my head right round!'
+end
+```
+
+Available spinners:
+
+- SpinR::Spinners::TRADITIONAL
+- SpinR::Spinners::BLOCK
+- SpinR::Spinners::DOTTED_1
+- SpinR::Spinners::DOTTED_2
+- SpinR::Spinners::DOTTED_3
+- SpinR::Spinners::DOTTED_4
+- SpinR::Spinners::WORLD
+- SpinR::Spinners::TRIANGLE
 
 ## Development
 
