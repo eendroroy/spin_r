@@ -1,7 +1,10 @@
 require 'spin_r/version'
 require 'spin_r/spinner'
 
-def Spin(text = nil, &block)
-  runner = SpinR::Spinner.new
-  runner.worker text, &block
+module SpinR
+  def self.spin(&block)
+    puts 'Hi;'
+    runner = SpinR::Spinner.new
+    runner.worker &block
+  end
 end
