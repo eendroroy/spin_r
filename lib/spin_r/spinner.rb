@@ -17,7 +17,7 @@ module SpinR
       while thread.alive?
         print "#{chars[0]}\r"
         sleep 0.1
-
+        print "\b"
         chars.push chars.shift
       end
 
