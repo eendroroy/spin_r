@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    spin_r (0.0.1.beta)
-      colorize
+    spin_r (0.0.2.beta)
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +15,6 @@ GEM
       virtus (~> 1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    colorize (0.8.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.3)
