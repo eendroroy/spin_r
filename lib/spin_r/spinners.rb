@@ -8,5 +8,6 @@ module SpinR
     DOTTED_4 = %w[⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈].freeze
     WORLD = %w[🌍 🌎 🌏].freeze
     TRIANGLE = %w[◢ ◣ ◤ ◥].freeze
+    EMOJI = %w[🌑 🌒 🌓 🌔 🌕 🌝 🌖 🌗 🌘 🌚].freeze
   end
 end

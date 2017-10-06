@@ -4,11 +4,11 @@ require 'spin_r'
 def test_spinner(spinner, name)
   block = proc do
     sleep 1
-    puts 'test line'
+    puts 'You spin my head right round! right round!'
     sleep 2
-    puts 'another test line'
+    puts 'When you go down!'
     sleep 3
-    puts 'yet another test line'
+    puts 'When you go down town!'
   end
 
   puts "SpinR::Spinners::#{name} Spinner"
@@ -26,3 +26,4 @@ test_spinner SpinR::Spinners::DOTTED_3, 'DOTTED_3'
 test_spinner SpinR::Spinners::DOTTED_4, 'DOTTED_4'
 test_spinner SpinR::Spinners::WORLD, 'WORLD'
 test_spinner SpinR::Spinners::TRIANGLE, 'TRIANGLE'
+test_spinner SpinR::Spinners::EMOJI, 'EMOJI'

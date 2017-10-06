@@ -52,6 +52,7 @@ Available spinners:
 - SpinR::Spinners::DOTTED_4
 - SpinR::Spinners::WORLD
 - SpinR::Spinners::TRIANGLE
+- SpinR::Spinners::EMOJI
 
 ## Development
 
