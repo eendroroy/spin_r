@@ -54,6 +54,10 @@ Available spinners:
 - SpinR::Spinners::TRIANGLE
 - SpinR::Spinners::EMOJI
 
+## asciicast
+
+[![asciicast](http://asciinema.org/a/141149.png)](https://asciinema.org/a/141149)
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/eendroroy/spin_r. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
