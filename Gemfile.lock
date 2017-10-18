@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spin_r (0.1.0)
+    spin_r (1.0.0)
       colorize
 
 GEM
