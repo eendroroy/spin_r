@@ -11,11 +11,12 @@ module SpinR
     private
 
     def with_spin
+      require 'colorize'
       chars  = @spinner.clone.dup
       thread = Thread.new { yield }
 
       while thread.alive?
-        print "#{chars[0]}\r"
+        print "#{chars[0]}\r".bold
         sleep 0.1
         print "\b"
         chars.push chars.shift
