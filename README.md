@@ -56,7 +56,9 @@ Available spinners:
 
 ## asciicast
 
-[![asciicast](http://asciinema.org/a/141149.png)](https://asciinema.org/a/141149)
+**v1.0.2**
+
+[![asciicast](http://asciinema.org/a/144694.png)](https://asciinema.org/a/144694)
 
 ## Contributing
 
