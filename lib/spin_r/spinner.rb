@@ -22,11 +22,11 @@ module SpinR
       thread = Thread.new { yield }
 
       while thread.alive?
-        spin_text = "#{chars[0]}\r".bold
+        spin_text = " #{chars[0]}\r".bold
         spin_text = spin_text.send(@color.to_s) if COLORS.include? @color
         print spin_text
         sleep 0.1
-        print "\b"
+        print "\b\b"
         chars.push chars.shift
       end
 
