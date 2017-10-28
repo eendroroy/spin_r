@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'spin_r'
+require 'colorize'
 
 def test_spinner(spinner, color, name)
   block = proc do
@@ -11,10 +12,9 @@ def test_spinner(spinner, color, name)
     puts 'When you go down town!'
   end
 
-  puts "SpinR::Spinners::#{name} Spinner"
   puts
+  puts " ==> SpinR::Spinners::#{name} Spinner".green
   SpinR.spin(spinner, color, &block)
-  puts
   puts
 end
 
